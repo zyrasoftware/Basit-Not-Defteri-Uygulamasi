@@ -8,11 +8,11 @@ Bu C++ programı, kullanıcının bir dosyaya notlar yazmasına ve bu notları d
 - `readNote` fonksiyonu, belirtilen dosyadaki notları okur ve ekrana yazdırır.
 
   # `main` Fonksiyonu
-  - `main` fonksiyonu, programın ana kontrol akışını sağlar.
-  - Kullanıcıdan bir dosya adı alınır ve bu adla bir `Notepad` nesnesi oluşturulur.
-  - Kullanıcıya notlarını girmesi için bir mesaj gösterilir ve `writeNote` fonksiyonu çağrılır.
-  - `saveNote` fonksiyonu çağrılarak notlar dosyaya kaydedilir.
-  - `readNote` fonksiyonu çağrılarak notlar dosyadan okunur ve ekrana yazdırılır.
+- `main` fonksiyonu, programın ana kontrol akışını sağlar.
+- Kullanıcıdan bir dosya adı alınır ve bu adla bir `Notepad` nesnesi oluşturulur.
+- Kullanıcıya notlarını girmesi için bir mesaj gösterilir ve `writeNote` fonksiyonu çağrılır.
+- `saveNote` fonksiyonu çağrılarak notlar dosyaya kaydedilir.
+- `readNote` fonksiyonu çağrılarak notlar dosyadan okunur ve ekrana yazdırılır.
 
 # Türkçe Karakter Desteği
 - `setlocale(LC_ALL, "Turkish");` ifadesi ile Türkçe karakter desteği sağlanır.
